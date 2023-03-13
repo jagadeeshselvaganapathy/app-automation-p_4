@@ -21,7 +21,7 @@ public class CameraAccessTest {
 		caps.setCapability("browserstack.key", "JybmMjv9aYXwps7TMbpC");
 
        // Set URL of the application under test
-		caps.setCapability("app", "bs://e1e0b3b2426ca7d44371c959b979ee1f2015e43f");
+	//	caps.setCapability("app", "bs://e1e0b3b2426ca7d44371c959b979ee1f2015e43f");
     	
 
        // Specify device and os_version for testing
