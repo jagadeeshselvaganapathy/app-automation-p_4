@@ -40,17 +40,25 @@ public class CameraAccessTest {
 		Thread.sleep(15000);
 //		   driver.get("calculator_app_url");
 //		   Thread.sleep(5000);
-		      driver.findElement(By.id("btn1")).click();
+/*		      driver.findElement(By.id("btn1")).click();
 		      Thread.sleep(5000);
 		      driver.findElement(By.id("btn2")).click();
 		      Thread.sleep(5000);
 		      driver.findElement(By.id("btn3")).click();
 		      Thread.sleep(5000);
 		      driver.findElement(By.id("btn4")).click();
-		      
+*/		      
 		      // Get the result and print it
 //		      String result = driver.findElement(By.id("result")).getText();
 //		      System.out.println("Result: " + result);
+		driver.get("https://www.facebook.com/");
+//		boolean contains = driver.getCurrentUrl().contains("xyz");
+//		Assert.assertTrue(contains);
+	
+		
+		WebElement element = driver.findElement(By.name("email"));
+		
+		element.sendKeys("jagadeesh");
 
 		// Quit the driver
 		driver.quit();
